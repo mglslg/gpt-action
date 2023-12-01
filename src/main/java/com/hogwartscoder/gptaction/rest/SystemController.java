@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SystemController {
     @GetMapping("/health/check")
     public String getRuleGroupPage() {
-        return "ok";
+        return "ok\n";
     }
 }
