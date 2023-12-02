@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /
+    context-path: /gptaction
   port: 8080
   tomcat:
     uri-encoding: utf-8
